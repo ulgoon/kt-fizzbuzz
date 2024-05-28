@@ -1,2 +1,5 @@
 for i in range(1,15+1):
-    print(i, end=' ')
+    if i % 3 == 0:
+        print('fizz', end=' ')
+    else:
+        print(i, end=' ')
